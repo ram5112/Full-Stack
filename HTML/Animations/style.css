@@ -1,0 +1,32 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.menu{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+  .hamburger{
+    display: none;
+  }
+  .nav-link{
+    display: none;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+}

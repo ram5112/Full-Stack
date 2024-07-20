@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <Legend>Form Example</Legend>
+      <h3>Contact Info</h3>
+      <div>
+        <section>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" required name="name"/>`
+          </section>
+          <section>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" placeholder="enter surname" name="name" required/>
+          </section>
+          <section>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="enter email" required name="name"/>
+          </section>
+          
+      </div>
+      <h3>Language</h3>
+      <div>
+        <section>
+          <label for="en">English</label>
+          <input type="checkbox" id="en" name="language" value="English"/>
+        </section>
+        <section>
+        <label for="ge">German</label>
+        <input type="checkbox" id="ge" name="language" value="German"/>
+        </section>
+        <section>
+          <label for="fr">French</label>
+          <input type="checkbox" id="fr" name="language" value="French"/>
+        </section>
+      </div>
+      <h3>Gender</h3>
+      <div>
+        <section>
+          <label for="male">Male</label>
+          <input type="radio" id="Male" name="gender" value="male"/>
+        </section>
+        <section>
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value="female"/>
+        </section>
+      </div>
+      <h3>Country</h3>
+      <div>
+        <label for="country">Select Country</label>
+        <select name="country" id="country">
+          <option value="" selected disabled>Countries</option>
+          <option value="USA">America</option>
+          <option value="German">Germany</option>
+          <option value="France">France</option>
+        </select>
+      </div>
+      <div>
+        <label for="file">select file</label>
+        <input type="file" id="file" name="file"/>
+      </div>
+      <section>
+      <button type="submit">Submit</button>
+    </section>
+    </fieldset>
+  </form>
+</body>
+</html>
